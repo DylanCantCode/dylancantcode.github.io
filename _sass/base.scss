@@ -69,13 +69,6 @@ blockquote {
 }
 //End MathJAX
 
-//ToC
-#markdown-toc::before {
-  content: "Contents";
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
 //Archive
 .archive-link{
   text-decoration: none;
