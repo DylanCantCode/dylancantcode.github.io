@@ -1,12 +1,12 @@
 # Site settings
-title: YAMT
-description: "Yet Another Minimal Theme"
-url:  "https://pandasekh.github.io/Jekyll-YAMT/" # Actual base url of the website
+title: blog
+description: "A collection of things I've written"
+url:  "https://dylancantcode.github.io" # Actual base url of the website
 baseurl: "/"           # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
-  name: "Alessio Franceschi"
-  email: "alessiofranceschi2@gmail.com"
-  url: "https://alessiofranceschi.me"
+  name: "Dylan Lea"
+  email: "dylan@dylanlea.com"
+  url: "https://www.dylanlea.com"
 permalink: /:year/:month/:day/:title:output_ext
 
 #Plugins
@@ -18,8 +18,8 @@ paginate_path: "/page:num/"
 
 #SEO
 twitter:
-  username: pandasekh
-  card: summary
+  username:
+  card:
 facebook:
   app_id: # Facebook app ID for Facebook insights
   publisher: # Facebook page URL or ID of the publishing entity
@@ -27,9 +27,7 @@ facebook:
 logo: /assets/img/logo.jpg
 social:
   links: #List your social links here
-    - https://twitter.com/PandaSekh
-    - https://www.github.com/pandasekh
-    - https://www.linkedin.com/in/alessio-franceschi/
+  -
 webmaster_verifications:
   google: 
   bing: 
