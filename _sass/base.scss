@@ -76,28 +76,6 @@ blockquote {
   font-weight: bold;
 }
 
-#markdown-toc {
-  border: 1px solid #aaa;
-  border-radius: 10px;
-  padding: 1.5em;
-  list-style: disc;
-  display: inline-block;
-  background-color: $light-grey;
-  line-height: 25px;
-  li{
-    a{
-      text-decoration: none;
-    }
-    a:hover{
-      font-style: italic;
-    }
-  }
-  ul{
-    list-style: disc;
-  }
-}
-//End ToC
-
 //Archive
 .archive-link{
   text-decoration: none;
