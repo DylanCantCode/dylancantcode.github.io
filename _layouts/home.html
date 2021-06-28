@@ -5,10 +5,7 @@ title: Home
 {% for post in paginator.posts %}
 
 <table class="post">
-    <tr>
     <h2 id = "post-title"><a href="{{ post.url  | relative_url }}">{{ post.title }}</a></h2>
-    </tr>
-    <tr>
         {% if site.data.settings.date-under-post.active %} 
         <div class = "post-info">
             <span>
@@ -18,11 +15,10 @@ title: Home
             </span>
         </div>
         {% endif %}
-    </tr>
     <tr>
-        <td>
+        <td class = "featured-img-container">
             {% if site.data.settings.featured-img.active %}
-            <div class = "featured-img-container">
+            <div >
             {% if post.image %}
                 <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}"/></a>
             {% endif %}
@@ -32,8 +28,7 @@ title: Home
             </div>
             {% endif %}
         </td>
-        <td>
-            <div class = "post-content">
+        <td class = "post-content">
                 <p>
                     {% if post.customexcerpt %}
                         {{post.customexcerpt | strip_html | truncatewords:50}}
@@ -42,7 +37,6 @@ title: Home
                     {% endif %}
                     <span class = "continue-reading"><a href="{{ post.url | relative_url }}">Continue reading...</a></span>
                 </p> 
-            </div>
         </td>
     </tr>
 </table>
