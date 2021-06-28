@@ -13,7 +13,8 @@
     margin-block-start: 1em;
     margin-block-end: 1em;
     img{
-        max-width: 100%;
+        object-fit: cover;
+        width: 100%;
         height: auto;
         max-height: 250px;
         @include border(7px);
