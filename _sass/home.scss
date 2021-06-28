@@ -6,14 +6,16 @@
     border-radius: $amount; 
 }
 
-
+.post-content{
+    float: right
+}
 .featured-img-container{
     margin-block-start: 1em;
     margin-block-end: 1em;
     img{
         max-width: 100%;
         height: auto;
-        max-height: 450px;
+        max-height: 250px;
         @include border(7px);
     }
 }
