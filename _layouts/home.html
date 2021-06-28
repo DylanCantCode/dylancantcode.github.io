@@ -33,7 +33,7 @@ title: Home
             {% endif %}
         </td>
         <td>
-            <div class = "post-content"></div>
+            <div class = "post-content">
                 <p>
                     {% if post.customexcerpt %}
                         {{post.customexcerpt | strip_html | truncatewords:50}}
@@ -42,6 +42,7 @@ title: Home
                     {% endif %}
                     <span class = "continue-reading"><a href="{{ post.url | relative_url }}">Continue reading...</a></span>
                 </p> 
+            </div>
         </td>
     </tr>
 </table>
