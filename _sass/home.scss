@@ -6,12 +6,16 @@
     border-radius: $amount; 
 }
 
-.post-content{
-    float: right
+.post-content {
+    float: right;
+    display: inline-block;
 }
 .featured-img-container{
     margin-block-start: 1em;
     margin-block-end: 1em;
+    min-width: 33%;
+    max-width: 50%;
+    display: inline-block;
     img{
         object-fit: cover;
         width: 100%;
